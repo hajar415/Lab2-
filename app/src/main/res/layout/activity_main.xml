@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center"
+    android:background="#654e82">
+
+
+
+    <EditText
+        android:id="@+id/la_surface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Surface en m²"
+        android:inputType="number"
+        android:layout_marginBottom="14dp" />
+
+
+
+    <EditText
+        android:id="@+id/les_pieces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de pièces"
+        android:inputType="number"
+        android:layout_marginBottom="14dp" />
+
+
+
+    <CheckBox
+        android:id="@+id/piscine_existe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avec piscine"
+        android:layout_marginBottom="18dp" />
+
+
+
+    <Button
+        android:id="@+id/button_de_calcul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="l'impôt"
+        android:layout_marginBottom="18dp" />
+
+
+
+    <TextView
+        android:id="@+id/resultat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#1565C0"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
