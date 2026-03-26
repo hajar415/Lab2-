@@ -6,8 +6,8 @@ de pièces, et coche s'il y a une piscine. En cliquant sur le bouton
 "Calculer l'impôt", l'application affiche le montant total à payer.
 
 ## Captures d'écran
-![Screenshot1](screenshots/image1.png)
-![Screenshot2](screenshots/image2.png)
+![Screenshot1](screenshots/image1.jpg)
+![Screenshot2](screenshots/image2.jpg)
 
 ## Auteur
 Hajar Chatbaoui
